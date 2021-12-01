@@ -1,7 +1,7 @@
 import pandas as pd
 import matplotlib.pyplot as plt
 
-lol = pd.read_csv('./2021_LoL_esports.csv')
+lol = pd.read_csv('../2021_LoL_esports.csv')
 
 #Liga/Time/Resltado/
 lol_partidas = lol.groupby(['team','league','result'])['result'].count()/6
