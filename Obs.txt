@@ -1,0 +1,7 @@
+pip install pandas
+pip install matplotlib
+pip install jupyter
+pip install numpy
+
+Pelo numero de dados os gráficos ficaram completamente extremamente ruins de ler portanto para ser legivel é nessessario executar o código
+e dar zoom na região que deseja ler
